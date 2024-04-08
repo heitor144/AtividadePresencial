@@ -9,6 +9,8 @@
     --gray-900: #121214;
     --green-300: #00837E; 
     --green-500: #00875f;
+    --blue-200: #87CEFA;
+    --blue-400: #00BFFF;
     --red-500: #f75a70;
 
     }
@@ -27,7 +29,7 @@ body {
 
 :focus {
     outline: transparent;
-    box-shadow: 0 0 0 2px var(--green-500);
+    box-shadow: 0 0 0 2px var(--blue-400);
 }
 
 body, input, textarea, button {

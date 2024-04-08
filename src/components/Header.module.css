@@ -5,12 +5,34 @@
     padding: 1.25rem;
     height: 80px;
     gap: 0.875rem;
+    /* Remove os marcadores de lista */
 }
 
-.header img{
+.header img {
     height: 2rem;
 }
 
-.header strong{
+.header strong {
     padding-top: 6px;
+}
+
+.logo img {
+    height: 2rem;
+}
+
+li{
+    padding: 6px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li:hover{
+    border-radius: 2rem;
+    background-color: var(--blue-400);
+}
+
+.link_menu {
+    color: #ffffff; /* Cor branca para os links */
+    text-decoration: none; 
+    list-style: none;
 }
